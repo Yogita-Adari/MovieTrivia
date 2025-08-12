@@ -1,0 +1,45 @@
+.login-container {
+    height: 100%;
+}
+
+.form-control:focus,
+.form-select:focus,
+.form-check-input:focus {
+    border: 1px solid black;
+    box-shadow: none;
+}
+
+.border-none {
+    border: 0 !important;
+}
+
+.border-blue {
+    border: 1px solid rgba(0, 51, 102, 1) !important;
+}
+
+.btn-active {
+    background: rgba(0, 51, 102, 1) !important;
+    color: rgb(255, 255, 255, 1) !important;;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.fs-8 {
+    font-size: small;
+}
+
+.position-absoulte {
+    position: absolute;
+    top: 70%;
+    right: 10%;
+}
+
+.container-height {
+    height: fit-content;
+}
+
+.margin-left-zero {
+    margin-left: 0 !important;
+}

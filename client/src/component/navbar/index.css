@@ -1,0 +1,117 @@
+.navbar-top {
+    height: 70px;
+    background: rgba(0, 51, 102, 1);
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+    color: rgb(255, 255, 255, 1) !important;
+}
+
+.navbar-toggler {
+    padding: 0.25rem;
+    border: none;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
+
+.btn-close:focus {
+    box-shadow: none !important;
+}
+
+.bi-person {
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(255, 255, 255, 1);
+}
+
+.bi-cart {
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(255, 255, 255, 1);
+}
+
+.btn-auth-filled {
+    width: 50%;
+    margin: 10px;
+    border: 1px solid rgba(0, 51, 102, 1);
+    color: rgba(0, 51, 102, 1) !important;
+
+    .custom-text-color {
+        color: rgba(0, 51, 102, 1) !important;
+        font-weight: 500 !important;
+    }
+}
+
+.btn-auth-filled:hover,
+.btn-auth-filled:active,
+.btn-auth-filled:focus-visible {
+    background: rgba(0, 51, 102, 1) !important;
+    color: rgb(255, 255, 255, 1) !important;
+    border: 1px solid rgba(0, 51, 102, 1) !important;
+    box-shadow: none !important;
+
+    .custom-text-color {
+        color: rgb(255, 255, 255, 1) !important;
+        font-weight: 500 !important;
+    }
+}
+
+.btn-auth-hollow {
+    width: 50%;
+    margin: 10px;
+    background: rgba(0, 51, 102, 1);
+    color: rgb(255, 255, 255, 1) !important;
+
+    .custom-text-color {
+        color: rgb(255, 255, 255, 1) !important;
+        font-weight: 500 !important;
+    }
+}
+
+.btn-auth-hollow:hover,
+.btn-auth-hollow:active,
+.btn-auth-hollow:focus-visible {
+    color: rgba(0, 51, 102, 1) !important;
+    border: 1px solid rgba(0, 51, 102, 1) !important;
+    box-shadow: none !important;
+
+    .custom-text-color {
+        color: rgba(0, 51, 102, 1) !important;
+        font-weight: 500 !important;
+    }
+}
+
+.btn-option {
+    .btn {
+        width: 50%;
+
+        .custom-text-color {
+            color: rgba(0, 51, 102, 1) !important;
+            font-weight: 500 !important;
+        }
+    }
+}
+
+.btn-option:hover,
+.active-option {
+    .btn {
+        width: 50%;
+        background: rgba(0, 51, 102, 1) !important;
+
+        .custom-text-color {
+            color: rgb(255, 255, 255, 1) !important;
+            font-weight: 500 !important;
+        }
+    }
+}
+
+.position-top {
+    color: rgb(255, 255, 255, 1) !important;
+    font-size: medium;
+    position: absolute;
+    right: 5%;
+    top: 0%;
+}
